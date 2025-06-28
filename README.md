@@ -2,7 +2,7 @@
 trabajo practico intergrador 2 matematica programacion 2025 1 cuatrimestre UTN
 
 
-##IMPLEMENTACIÓN scriptparte1a.py 
+#scriptparte1a.py 
 
     función dni_a_conjunto: toma los dnis, y nos devuelve el conjunto de los elementos de un dni;
     función condicion1 va tomar los dos conjuntos y devuelve True si la suma de los elementos de la diferencia es impar
@@ -13,7 +13,7 @@ trabajo practico intergrador 2 matematica programacion 2025 1 cuatrimestre UTN
 IDEA LÓGICA: si se cumplen ambas condiciones mostrar en pantalla “ a estudiar” sino “ver pelis”
 
 
-##IMPLEMENTACIÓN scriptparte1b.py (ver anexo)
+#scriptparte1b.py
 
 Necesitamos que verifiquen el resultado de estas condiciones.. parte del ejemlo consigna…
 
@@ -40,7 +40,7 @@ LÓGICA
   inicio: es la encargada de tomar los dnis e imprimir los resultados.
 
 
-##scriptparte2a.py
+#scriptparte2a.py
 
   Documentacion scriptparte2a.py (para codigo ver anexo)
 
@@ -68,4 +68,21 @@ CONDICIONES Tomando los ejemplos de la consigna sobre evaluación de condiciones
 
 
 Una función para cada tarea… Se realiza la operación y visualización de cada cálculo, y demás condiciones lógicas.,,,
+
+
+#scriptparte2b.py (para el codigo, ver anexo)
+
+        Operaciones con años de nacimiento ·
+        Ingreso de los años de nacimiento
+
+        Implementar una función para determinar si un año es bisiesto
+        Si alguno nació en año bisiesto, mostrar "Tenemos un año especial"
+        Calcular el producto cartesiano entre el conjunto de años y el conjunto de edades actuales.
+        Si todos nacieron después del 2000, mostrar "Grupo Z"
+        Si dos o más integrantes del grupo tienen el mismo año,.. mostrar “los dos nacieron el mismo año”
+        Contar cuántos nacieron en años pares e impares utilizando estructuras repetitivas.
+        Una función para cada tarea… Se realiza la operación y visualización de cada cálculo, y se evalúan y muestra resultado de las condiciones lógicas.,,,
+
+
+
 
