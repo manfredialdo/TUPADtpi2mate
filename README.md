@@ -1,7 +1,8 @@
 # TUPADtpi2mate
 trabajo practico intergrador 2 matematica programacion 2025 1 cuatrimestre UTN
 
-
+##############################################################################################################################
+##############################################################################################################################
 #scriptparte1a.py 
 
     función dni_a_conjunto: toma los dnis, y nos devuelve el conjunto de los elementos de un dni;
@@ -13,6 +14,8 @@ trabajo practico intergrador 2 matematica programacion 2025 1 cuatrimestre UTN
 IDEA LÓGICA: si se cumplen ambas condiciones mostrar en pantalla “ a estudiar” sino “ver pelis”
 
 
+##############################################################################################################################
+##############################################################################################################################
 #scriptparte1b.py
 
 Necesitamos que verifiquen el resultado de estas condiciones.. parte del ejemlo consigna…
@@ -39,6 +42,9 @@ CÁLCULOS
 LÓGICA
   inicio: es la encargada de tomar los dnis e imprimir los resultados.
 
+
+##############################################################################################################################
+##############################################################################################################################
 
 #scriptparte2a.py
 
@@ -69,6 +75,8 @@ CONDICIONES Tomando los ejemplos de la consigna sobre evaluación de condiciones
 
 Una función para cada tarea… Se realiza la operación y visualización de cada cálculo, y demás condiciones lógicas.,,,
 
+##############################################################################################################################
+##############################################################################################################################
 
 #scriptparte2b.py (para el codigo, ver anexo)
 
@@ -86,3 +94,6 @@ Una función para cada tarea… Se realiza la operación y visualización de cad
 
 
 
+
+##############################################################################################################################
+##############################################################################################################################
