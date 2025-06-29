@@ -7,6 +7,13 @@
 VIDEO EXPLICATIVO https://www.youtube.com/watch?v=Sxsgc6xGZ-Q
 
 
+mate1tpi2recu.pdf                 recuperatorio del trabajo practico integrador 2 de matematicas... 
+
+
+tpi2recumate.py                     codigo todo los scripts juntos
+
+
+
 #scriptparte1a.py 
 
     función dni_a_conjunto: toma los dnis, y nos devuelve el conjunto de los elementos de un dni;
