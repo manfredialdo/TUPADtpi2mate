@@ -1,78 +1,97 @@
+# tupad matematica1: Recuperatorio trabajo practico integrador nro2, 2025, manfredi, pighin
 
-    <h1>Documentación del Proyecto</h1>
+---
 
-    <p><strong>VIDEO EXPLICATIVO:</strong> <a href="https://www.youtube.com/watch?v=Sxsgc6xGZ-Q">https://www.youtube.com/watch?v=Sxsgc6xGZ-Q</a></p>
+## 📹 Video Explicativo
 
-    <h2>Recuperatorio del Trabajo Práctico Integrador 2 de Matemáticas</h2>
-    <p><strong>Archivo:</strong> mate1tpi2recu.pdf</p>
-    <p><strong>Código de scripts juntos:</strong> tpi2recumate.py</p>
+[https://www.youtube.com/watch?v=Sxsgc6xGZ-Q](https://www.youtube.com/watch?v=Sxsgc6xGZ-Q)
 
-    <hr>
+---
 
-    <h3>scriptparte1a.py</h3>
-    <ul>
-        <li><strong>función dni_a_conjunto:</strong> toma los dnis, y nos devuelve el conjunto de los elementos de un dni.</li>
-        <li><strong>función condicion1:</strong> toma los dos conjuntos y devuelve True si la suma de los elementos de la diferencia es impar.</li>
-        <li><strong>función condicion2:</strong> a partir de dos conjuntos y devuelve True si la intersección tiene al menos 5 elementos.</li>
-        <li><strong>función inicio:</strong> es la encargada de verificar la lógica e imprimir resultado.</li>
-    </ul>
-    <p><strong>IDEA LÓGICA:</strong> Si se cumplen ambas condiciones mostrar en pantalla “a estudiar” sino “ver pelis”.</p>
+## 📄 Recuperatorio del Trabajo Práctico Integrador 2 de Matemáticas
 
-    <hr>
+* **Archivo del recuperatorio:** `mate1tpi2recu.pdf`
+* **Código de scripts juntos:** `tpi2recumate.py`
 
-    <h3>scriptparte1b.py</h3>
-    <p>Necesitamos que verifiquen el resultado de estas condiciones.. parte del ejemplo consigna…</p>
-    <ul>
-        <li><strong>condicion3:</strong> Si todos los conjuntos tienen al menos 5 elementos, entonces se considera que hay una alta diversidad numérica.</li>
-        <li><strong>condicion4:</strong> Si algún dígito aparece en todos los conjuntos, se marca como dígito común.</li>
-        <li><strong>condicion5:</strong> Si la intersección entre todos los conjuntos tiene exactamente un elemento, se considera un dígito representativo del grupo.</li>
-    </ul>
-    <p><strong>Funciones implementadas:</strong></p>
-    <ul>
-        <li><strong>dni_a_conjunto:</strong> toma un dni y devuelve un conjunto.</li>
-    </ul>
-    <p><strong>CÁLCULOS:</strong></p>
-    <ul>
-        <li><strong>condicion3(a, b):</strong> toma dos dni y nos devuelve si hay alta diversidad numérica.</li>
-        <li><strong>condicion4(a,b):</strong> toma los dos dni y devuelve True si la intersección tiene más de un elemento.</li>
-        <li><strong>condicion5(a,b):</strong> toma dos dnis y devuelve True si la intersección tiene exactamente un elemento.</li>
-    </ul>
-    <p><strong>LÓGICA inicio:</strong> es la encargada de tomar los dnis e imprimir los resultados.</p>
+---
 
-    <hr>
+### 📝 `scriptparte1a.py`
 
-    <h3>scriptparte2a.py</h3>
-    <p><strong>Documentación scriptparte2a.py (para código ver anexo)</strong></p>
-    <p>Operaciones con DNIs - Ingreso de los DNIs (reales o ficticios)…</p>
-    <ul>
-        <li>Opción de generación automática de los conjuntos de dígitos únicos.</li>
-    </ul>
-    <p>El script scriptparte2a.py da la opción del ingreso manual de dnis y la generación aleatoria de dnis… luego realiza todos los siguientes cálculos y su posterior visualización, y además evalúa si se cumplen algunas condiciones y muestra el resultado.</p>
-    <p><strong>CÁLCULO Y VISUALIZACIÓN DE:</strong></p>
-    <ul>
-        <li>Unión, intersección, diferencias y diferencia simétrica.</li>
-        <li>La frecuencia de cada dígito en cada DNI utilizando estructuras repetitivas.</li>
-        <li>Suma total de los dígitos de cada DNI.</li>
-    </ul>
-    <p><strong>CONDICIONES:</strong> Tomando los ejemplos de la consigna sobre evaluación de condiciones, vinculadas con las expresiones escritas…</p>
-    <ul>
-        <li>Si un dígito aparece en todos los conjuntos, mostrar "Dígito compartido".</li>
-        <li>Si algún conjunto tiene más de 6 elementos, mostrar "Diversidad numérica alta".</li>
-    </ul>
-    <p>Una función para cada tarea… Se realiza la operación y visualización de cada cálculo, y demás condiciones lógicas.</p>
+Este script se enfoca en la lógica principal y evaluación de condiciones basadas en los DNIs.
 
-    <hr>
+* **`función dni_a_conjunto`**: Toma los DNIs y devuelve el conjunto de los elementos de un DNI.
+* **`función condicion1`**: Toma dos conjuntos y devuelve `True` si la suma de los elementos de la diferencia es impar.
+* **`función condicion2`**: A partir de dos conjuntos, devuelve `True` si la intersección tiene al menos 5 elementos.
+* **`función inicio`**: Es la encargada de verificar la lógica e imprimir el resultado.
 
-    <h3>scriptparte2b.py</h3>
-    <p><strong>(para el código, ver anexo)</strong></p>
-    <p>Operaciones con años de nacimiento ·</p>
-    <ul>
-        <li>Ingreso de los años de nacimiento.</li>
-        <li>Implementar una función para determinar si un año es bisiesto.</li>
-        <li>Si alguno nació en año bisiesto, mostrar "Tenemos un año especial".</li>
-        <li>Calcular el producto cartesiano entre el conjunto de años y el conjunto de edades actuales.</li>
-        <li>Si todos nacieron después del 2000, mostrar "Grupo Z".</li>
-        <li>Si dos o más integrantes del grupo tienen el mismo año, mostrar “los dos nacieron el mismo año”.</li>
-        <li>Contar cuántos nacieron en años pares e impares utilizando estructuras repetitivas.</li>
-    </ul>
-    <p>Una función para cada tarea… Se realiza la operación y visualización de cada cálculo, y se evalúan y muestra resultado de las condiciones lógicas.</p>
+**💡 IDEA LÓGICA:** Si se cumplen ambas condiciones (condicion1 y condicion2), mostrar en pantalla “**a estudiar**”; de lo contrario, “**ver pelis**”.
+
+---
+
+### 📝 `scriptparte1b.py`
+
+Este script verifica el resultado de condiciones adicionales, siguiendo el ejemplo de la consigna.
+
+* **`condicion3`**: Si todos los conjuntos tienen al menos 5 elementos, entonces se considera que hay una **alta diversidad numérica**.
+* **`condicion4`**: Si algún dígito aparece en todos los conjuntos, se marca como **dígito común**.
+* **`condicion5`**: Si la intersección entre todos los conjuntos tiene exactamente un elemento, se considera un **dígito representativo del grupo**.
+
+**Funciones implementadas:**
+
+* **`dni_a_conjunto`**: Toma un DNI y devuelve un conjunto (función reutilizada).
+
+**CÁLCULOS:**
+
+* **`condicion3(a, b)`**: Toma dos DNIs y nos devuelve si hay alta diversidad numérica.
+* **`condicion4(a,b)`**: Toma los dos DNIs y devuelve `True` si la intersección tiene más de un elemento.
+* **`condicion5(a,b)`**: Toma dos DNIs y devuelve `True` si la intersección tiene exactamente un elemento.
+
+**LÓGICA `inicio`**: Es la encargada de tomar los DNIs e imprimir los resultados.
+
+---
+
+### 📝 `scriptparte2a.py`
+
+*(Para el código, ver anexo)*
+
+Este script permite operaciones con DNIs, incluyendo ingreso manual y generación aleatoria, y realiza diversos cálculos y visualizaciones, además de evaluar condiciones.
+
+**Operaciones con DNIs:**
+
+* Ingreso de los DNIs (reales o ficticios).
+* Opción de generación automática de los conjuntos de dígitos únicos.
+
+El script `scriptparte2a.py` ofrece la opción de ingreso manual de DNIs y la generación aleatoria de DNIs. Luego realiza todos los siguientes cálculos y su posterior visualización, y además evalúa si se cumplen algunas condiciones y muestra el resultado.
+
+**CÁLCULO Y VISUALIZACIÓN DE:**
+
+* Unión, intersección, diferencias y diferencia simétrica.
+* La frecuencia de cada dígito en cada DNI utilizando estructuras repetitivas.
+* Suma total de los dígitos de cada DNI.
+
+**CONDICIONES:** Tomando los ejemplos de la consigna sobre evaluación de condiciones, vinculadas con las expresiones escritas…
+
+* Si un dígito aparece en todos los conjuntos, mostrar "**Dígito compartido**".
+* Si algún conjunto tiene más de 6 elementos, mostrar "**Diversidad numérica alta**".
+
+Se implementa una función para cada tarea, realizando la operación y visualización de cada cálculo, además de las condiciones lógicas.
+
+---
+
+### 📝 `scriptparte2b.py`
+
+*(Para el código, ver anexo)*
+
+Este script se centra en operaciones y análisis relacionados con los años de nacimiento.
+
+**Operaciones con años de nacimiento:**
+
+* Ingreso de los años de nacimiento.
+* Implementar una función para determinar si un año es **bisiesto**.
+* Si alguno nació en año bisiesto, mostrar "**Tenemos un año especial**".
+* Calcular el **producto cartesiano** entre el conjunto de años y el conjunto de edades actuales.
+* Si todos nacieron después del 2000, mostrar "**Grupo Z**".
+* Si dos o más integrantes del grupo tienen el mismo año, mostrar “**los dos nacieron el mismo año**”.
+* Contar cuántos nacieron en **años pares e impares** utilizando estructuras repetitivas.
+
+Se implementa una función para cada tarea, realizando la operación y visualización de cada cálculo, y se evalúan y muestran los resultados de las condiciones lógicas.
