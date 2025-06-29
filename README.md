@@ -4,7 +4,7 @@ trabajo practico intergrador 2 matematica programacion 2025 1 cuatrimestre UTN
 #############################################################################################
 #############################################################################################
 
-
+VIDEO EXPLICATIVO https://www.youtube.com/watch?v=Sxsgc6xGZ-Q
 #scriptparte1a.py 
 
     función dni_a_conjunto: toma los dnis, y nos devuelve el conjunto de los elementos de un dni;
